@@ -14,3 +14,6 @@ function summarizeUser(userName, userAge, userHasHobby){
 }
 
 console.log(summarizeUser( name, age, hobbies));
+
+const fn = (a, b) => { return a + b; }
+console.log(fn(age, 4));
