@@ -30,3 +30,9 @@ console.log(hobbies);
 //copiar array
 const hobbiesCopiados = [...hobbies, 'Hola'];
 console.log(hobbiesCopiados);
+
+const toArray = (...args) => {
+    return args;
+};
+
+toArray(1, 2, 3, 4);
