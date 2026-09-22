@@ -1,6 +1,7 @@
-const name = "Alvaro";
-let age = 19;
-const hobbies = true;
+
+var name = "Alvaro";
+var age = 19;
+var hobbies = true;
 var hasHobbies = "";
 
 function summarizeUser(userName, userAge, userHasHobby){
@@ -15,5 +16,4 @@ function summarizeUser(userName, userAge, userHasHobby){
 
 console.log(summarizeUser( name, age, hobbies));
 
-const fn = (a, b) => { return a + b; }
-console.log(fn(age, 4));
+//me declaro varias variables globales con var y hago una función para que imprima el nombre, la edad y si tiene un hobbie o no
