@@ -9,5 +9,5 @@ console.log("Grimorio actualizado:", grimoire);
 //2
 grimoire = {owner: "Mago Oscuro"};
 //TypeError: Assignment to constant variable. No puedes asignar de esta forma a una constante
-//Esto pasa porque intenta reasignar el puntero a una nueva dirección de memoria. Tampoco dejaria con push porque no es un array
+//Esto pasa porque intenta asignar el puntero a una nueva dirección de memoria. Tampoco dejaria con push porque no es un array
 

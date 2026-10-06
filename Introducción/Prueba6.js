@@ -11,7 +11,8 @@ console.log(name, age); // 'Max' 29
 printName(persona);
 
 
-//Esto lo hacemos para sacar lo que quieras dentro del array. Poniendo comas, puedes saltarte algunos por si quieres sacar algun dato que este por el medio
+//Esto lo hacemos para sacar lo que quieras dentro del array. 
+//Poniendo comas, puedes saltarte algunos por si quieres sacar algun dato que este por el medio
 const hobbies = ['hola', 'adios', 'perdon']
 const [hobby1, , hobby3] = hobbies;
 
