@@ -1,0 +1,19 @@
+{
+  "name": "seccion5",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Yo",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon App2.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
